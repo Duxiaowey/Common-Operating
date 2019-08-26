@@ -5,6 +5,7 @@ import os
 os.chdir('drive/My Drive/time_series/')
 !ls
 
+! bash weights/download_weights.sh
 
 !apt-get install -y -qq software-properties-common python-software-properties module-init-tools
 !add-apt-repository -y ppa:alessandro-strada/ppa 2>&1 > /dev/null
