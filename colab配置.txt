@@ -5,6 +5,12 @@ import os
 os.chdir('drive/My Drive/time_series/')
 !ls
 
+!git clone ……
+import os
+os.chdir('Generative-Adversarial-Nets-pytorch/')
+! ls
+
+
 ! bash weights/download_weights.sh
 
 !apt-get install -y -qq software-properties-common python-software-properties module-init-tools
