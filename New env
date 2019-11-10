@@ -1,0 +1,2 @@
+conda create -n name python=3.6
+conda activate name
