@@ -37,6 +37,7 @@ for f in list2:
         del dict2[f]
 
 cha = set(list1).difference(set(list2))
+
 print(cha)
 
 print(len(dict2))
