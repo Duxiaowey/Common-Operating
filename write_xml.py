@@ -161,10 +161,7 @@ if __name__ == "__main__":
         for cc in range(1, c):
             cnt = contours[cc]
             x, y, w, h = cv2.boundingRect(cnt)  # 外接矩形
-            xmin = x
-            ymin = y
-            xmax = x + w
-            ymax = y + h
+            xmin， ymin, xmax, ymax = x, y, x+w, y+h
             writer.addBndBox(xmin,ymin,xmax,ymax,'tampered')
             name = re.split('[/.]', i)[1]
             name = name.replace('_gt', '')
