@@ -14,8 +14,8 @@ for a in anno:
     dict1[aa] = s
 
 # data1_path = '/home/duxiaowey/my_ps/src/faster-rcnn/data/CASIA/CASIA1/Annotations'
-# file1_list = os.listdir(data1_path)
 # data2_path = '/home/duxiaowey/my_ps/src/faster-rcnn/data/mycasia/JPEGImages'
+# file1_list = os.listdir(data1_path)
 # file2_list = os.listdir(data2_path)
 
 list2 = []
